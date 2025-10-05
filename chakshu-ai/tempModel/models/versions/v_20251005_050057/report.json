@@ -1,0 +1,113 @@
+{
+  "overall_accuracy": 0.6361724500525763,
+  "classification_report": {
+    "Candidate": {
+      "precision": 0.8421052631578947,
+      "recall": 0.6220839813374806,
+      "f1-score": 0.7155635062611807,
+      "support": 1286.0
+    },
+    "Confirmed": {
+      "precision": 0.4405737704918033,
+      "recall": 0.6782334384858044,
+      "f1-score": 0.5341614906832298,
+      "support": 317.0
+    },
+    "False Positive": {
+      "precision": 0.4202586206896552,
+      "recall": 0.6521739130434783,
+      "f1-score": 0.5111402359108781,
+      "support": 299.0
+    },
+    "accuracy": 0.6361724500525763,
+    "macro avg": {
+      "precision": 0.5676458847797844,
+      "recall": 0.6508304442889211,
+      "f1-score": 0.5869550776184296,
+      "support": 1902.0
+    },
+    "weighted avg": {
+      "precision": 0.7088678134874664,
+      "recall": 0.6361724500525763,
+      "f1-score": 0.6531938970219846,
+      "support": 1902.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      800,
+      239,
+      247
+    ],
+    [
+      80,
+      215,
+      22
+    ],
+    [
+      70,
+      34,
+      195
+    ]
+  ],
+  "feature_importance": [
+    0.07736951112747192,
+    0.07887526601552963,
+    0.12213903665542603,
+    0.0,
+    0.11028874665498734,
+    0.10073613375425339,
+    0.052132636308670044,
+    0.0572698600590229,
+    0.0,
+    0.0684458389878273,
+    0.05177624896168709,
+    0.04971447214484215,
+    0.0,
+    0.09358163177967072,
+    0.06033434718847275,
+    0.07733626663684845,
+    0.0
+  ],
+  "calibration_thresholds": {
+    "Candidate": {
+      "f1_threshold": 0.13183794915676117,
+      "f1_score": 0.8264352469959947,
+      "precision_threshold": 0.8909799456596375,
+      "recall_threshold": 0.019832488149404526
+    },
+    "Confirmed": {
+      "f1_threshold": 0.6076343059539795,
+      "f1_score": 0.5559105431309904,
+      "precision_threshold": 0.9102551341056824,
+      "recall_threshold": 0.0042715719901025295
+    },
+    "False Positive": {
+      "f1_threshold": 0.4466376304626465,
+      "f1_score": 0.5135869565217391,
+      "precision_threshold": 0.9141305088996887,
+      "recall_threshold": 0.01034082006663084
+    }
+  },
+  "training_info": {
+    "model_type": "XGBoost",
+    "test_size": 0.25,
+    "random_state": 42,
+    "n_features": 20,
+    "n_samples": 7605,
+    "hyperparameter_optimization": {
+      "enabled": true,
+      "best_params": {
+        "subsample": 0.9,
+        "reg_lambda": 20,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "gamma": 1,
+        "colsample_bytree": 0.8
+      },
+      "best_cv_score": 0.6679584594887584
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "timestamp": "20251005_050057",
+  "model_type": "XGBoost",
+  "accuracy": 0.6361724500525763,
+  "n_features": 20,
+  "feature_engineering": false,
+  "hyperparameter_optimization": true
+}

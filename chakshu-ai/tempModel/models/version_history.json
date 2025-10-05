@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "20251005_034820",
+    "model_type": "LightGBM",
+    "accuracy": 0.7687160184023422,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": false
+  },
+  {
+    "timestamp": "20251005_035036",
+    "model_type": "Random Forest",
+    "accuracy": 0.7687160184023422,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": false
+  },
+  {
+    "timestamp": "20251005_035453",
+    "model_type": "LightGBM",
+    "accuracy": 0.7687160184023422,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": false
+  },
+  {
+    "timestamp": "20251005_043730",
+    "model_type": "XGBoost",
+    "accuracy": 0.7846089502300293,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": false
+  },
+  {
+    "timestamp": "20251005_044344",
+    "model_type": "XGBoost",
+    "accuracy": 0.7582601421999163,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": true
+  },
+  {
+    "timestamp": "20251005_045759",
+    "model_type": "XGBoost",
+    "accuracy": 0.7949748743718593,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": true
+  },
+  {
+    "timestamp": "20251005_050057",
+    "model_type": "XGBoost",
+    "accuracy": 0.6361724500525763,
+    "n_features": 20,
+    "feature_engineering": false,
+    "hyperparameter_optimization": true
+  },
+  {
+    "timestamp": "20251005_050511",
+    "model_type": "Ensemble (Stacking)",
+    "accuracy": 0.75678391959799,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": true
+  },
+  {
+    "timestamp": "20251005_050745",
+    "model_type": "Ensemble (Stacking)",
+    "accuracy": 0.7728983688833124,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": true
+  },
+  {
+    "timestamp": "20251005_055355",
+    "model_type": "XGBoost",
+    "accuracy": 0.7846089502300293,
+    "n_features": 29,
+    "feature_engineering": false,
+    "hyperparameter_optimization": false
+  }
+]
