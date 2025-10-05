@@ -193,6 +193,11 @@ export default function ChakshuAI() {
     About: "about-section",
   };
 
+  // Redirect handler for Start button
+  const handleStartClick = () => {
+    window.location.href = "http://127.0.0.1:8051/";
+  };
+
   return (
     <div
       style={{
@@ -418,7 +423,7 @@ export default function ChakshuAI() {
         {/* Buttons */}
         <div style={{ marginTop: 40 }}>
           <button
-            onClick={() => alert("Start button clicked!")}
+            onClick={handleStartClick}
             onMouseEnter={() => setHoveredButton("start")}
             onMouseLeave={() => setHoveredButton(null)}
             style={{
