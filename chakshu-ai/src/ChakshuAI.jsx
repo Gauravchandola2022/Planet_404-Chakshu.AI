@@ -296,7 +296,7 @@ export default function ChakshuAI() {
             cursor: "pointer",
           }}
         >
-          {["Home", "Explore", "Mission", "About"].map((item) => {
+          {["Home", "Mission", "About"].map((item) => {
             const isActive =
               visibleSection === navSectionMap[item];
             const isHovered = hoveredNav === item;
@@ -308,8 +308,8 @@ export default function ChakshuAI() {
                   position: "relative",
                   fontWeight: isActive ? "bold" : "normal",
                   color: isActive ? "#fff" : "#aad4ff",
-                  pointerEvents: item === "Explore" ? "none" : "auto",
-                  cursor: item === "Explore" ? "default" : "pointer",
+                  pointerEvents: "auto",
+                  cursor: "pointer",
                   fontSize: isActive || isHovered ? "1.18em" : "1em",
                   transition:
                     "color 0.3s, opacity 0.3s, transform 0.3s, font-size 0.3s",
@@ -371,7 +371,7 @@ export default function ChakshuAI() {
       >
         <h1
           style={{
-            fontSize: "3em",
+            fontSize: "4em",
             margin: 0,
             textShadow: "0 0 20px rgba(255,255,255,0.5)",
             transition: "0.4s",
@@ -385,7 +385,7 @@ export default function ChakshuAI() {
         >
           Hunting for Exoplanets with AI
         </h1>
-        <p style={{ marginTop: 10, fontSize: "1.1em", opacity: 0.8 }}>
+        <p style={{ marginTop: 10, fontSize: "1.5em", opacity: 0.8 }}>
           An eye that can see beyond IMAGINATION
         </p>
       </header>
@@ -412,7 +412,7 @@ export default function ChakshuAI() {
             maxWidth: 700,
             margin: "0 auto",
             lineHeight: 1.7,
-            fontSize: "1em",
+            fontSize: "1.2em",
             opacity: 0.9,
           }}
         >
