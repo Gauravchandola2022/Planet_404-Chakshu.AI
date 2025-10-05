@@ -88,6 +88,13 @@ Probability bar chart
 
 Feature distributions (boxplots) with selected row marked
 
+**How to operate/run this project:**
+Step 1: Open the terminal in this path: Planet_404-Chakshu.AI\chakshu-ai\tempModel
+Step 2: Run this command: streamlit run app.py
+Step 3: Now, go to the path: Planet_404-Chakshu.AI\chakshu-ai\src
+Step 4: Run this command: npm start
+Step 5: Now, your project is ready to use
+
 
 Download predictions as a CSV file.
 
